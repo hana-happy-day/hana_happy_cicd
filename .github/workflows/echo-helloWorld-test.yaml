@@ -1,0 +1,15 @@
+name: echo-helloWorld-test
+on:
+  push:
+    branches: [main]
+
+jobs:
+ Running_test:
+  runs-on: ubuntu-latest
+
+  steps:
+   - name: Checkout codes
+     uses: actions/checkout@v5
+
+   - name: echo-helloWorld-test
+     echo: "Hello,World!"
