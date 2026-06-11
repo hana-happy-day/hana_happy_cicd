@@ -1,15 +1,16 @@
 name: echo-helloWorld-test
+
 on:
   push:
-    branches: [main]
+    branches: [master]
 
 jobs:
- Running_test:
-  runs-on: ubuntu-latest
+  Running_test:
+    runs-on: ubuntu-latest
 
-  steps:
-   - name: Checkout codes
-     uses: actions/checkout@v5
+    steps:
+      - name: Checkout codes
+        uses: actions/checkout@v5
 
-   - name: echo-helloWorld-test
-     run: echo "Hello,World!"
+      - name: echo-helloWorld-test
+        run: echo "Hello,World!"
