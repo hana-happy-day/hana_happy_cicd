@@ -13,4 +13,4 @@ jobs:
 
    - name: echo-helloWorld-test
      run:
-       echo: "Hello,World!"
+      echo: "Hello,World!"
