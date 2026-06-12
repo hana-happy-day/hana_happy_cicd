@@ -1,7 +1,7 @@
 import json
 import openpyxl
 
-data = open('report 1.json','r',encoding = 'utf-8')
+data = open('.github/workflows/report 1.json','r',encoding = 'utf-8')
 json_data = json.load(data) # 開いたJSONファイルを、Pythonで使えるデータに変換する
 
 
