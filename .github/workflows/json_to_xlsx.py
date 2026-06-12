@@ -18,7 +18,7 @@ header_remark ='備考'
 test = json_data['test_results']
 
 filename = json_data['test_name']
-file_name = f'{filename}xlsx'
+file_name = f'{filename}.xlsx'
 
 
 
