@@ -2,7 +2,7 @@ name: echo-helloWorld-test
 
 on:
   push:
-    branches: [main]
+    branches: [master]
 
 jobs:
   Running_test:
