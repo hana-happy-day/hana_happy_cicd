@@ -2,7 +2,7 @@ name: json_to_xlsx
 
 on:
   push:
-    branches: [main]
+    branches: [master]
 
 jobs:
   Running_test:
