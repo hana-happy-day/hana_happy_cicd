@@ -33,7 +33,7 @@ for value in test:
 
 
     test_report = [
-        [header_name,header_time,header_person,header_results,header_time,header_remark],
+        [header_name,header_person,header_time,header_results,header_remark],
         [test_case_name,test_officer,test_date,result,remark],
     ]
 
