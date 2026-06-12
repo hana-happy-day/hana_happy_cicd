@@ -37,8 +37,8 @@ for value in test:
         [test_case_name,test_officer,test_date,result,remark],
     ]
 
-for i in test_report:
-    sheet.append(i)
+    for i in test_report:
+        sheet.append(i)
 
 
 
