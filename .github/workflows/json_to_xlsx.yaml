@@ -15,4 +15,4 @@ jobs:
       - name: json_to_xlsx
         run: |
           pip install openpyxl
-          python json_to_xlsx.py
+          python .github/workflows/json_to_xlsx.py
