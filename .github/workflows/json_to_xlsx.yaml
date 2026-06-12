@@ -16,3 +16,10 @@ jobs:
         run: |
           pip install openpyxl
           python .github/workflows/json_to_xlsx.py
+
+      
+      - name: Upload Excel
+        uses: actions/upload-artifact@v4
+        with:
+          name: excel-result
+          path: "*.xlsx"
