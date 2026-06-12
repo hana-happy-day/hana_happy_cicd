@@ -1,4 +1,4 @@
-name: echo-helloWorld-test
+name: json_to_xlsx
 
 on:
   push:
@@ -12,5 +12,7 @@ jobs:
       - name: Checkout codes
         uses: actions/checkout@v5
 
-      - name: echo-helloWorld-test
-        run: echo "Hello,World!"
+      - name: json_to_xlsx
+        run: |
+          pip install
+          python json_to_xlsx.py
