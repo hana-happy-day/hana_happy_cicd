@@ -14,13 +14,14 @@ header_person = '実行者名'
 header_results = '結果'
 header_remark ='備考'
 
+header = [header_name,header_person,header_time,header_results,header_remark]
 
 test = json_data['test_results']
 
 filename = json_data['test_name']
 file_name = f'{filename}.xlsx'
 
-
+sheet.append(header)
 
 for value in test:
     # name はリストtest_resultsの中にある辞書を１つずつ取り出す。
@@ -33,7 +34,6 @@ for value in test:
 
 
     test_report = [
-        [header_name,header_person,header_time,header_results,header_remark],
         [test_case_name,test_officer,test_date,result,remark],
     ]
 
